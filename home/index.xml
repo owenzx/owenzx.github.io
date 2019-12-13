@@ -1,14 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on Xiang Zhou 周翔</title>
+    <title>Homes on Xiang Zhou</title>
     <link>https://owenzx.github.io/home/</link>
-    <description>Recent content in Homes on Xiang Zhou 周翔</description>
+    <description>Recent content in Homes on Xiang Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Xiang Zhou</copyright>
+    <copyright>&amp;copy; 2019 Xiang Zhou</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://owenzx.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://owenzx.github.io/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://owenzx.github.io/home/about/</guid>
+      <description>About me My name is Xiang Zhou. Currently, I&amp;rsquo;m a second-year Ph.D. student in the Department of Computer Science, UNC-Chapel Hill working with Prof. Mohit Bansal.
+I received my bachelor&amp;rsquo;s degree Shanghai Jiao Tong University(SJTU) in 2018, where I worked with Prof. Kai Yu. I was a member of the IEEE honored class. I also spent one summer visiting the University of Notre Dame working with Prof. David Chiang.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://owenzx.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://owenzx.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://owenzx.github.io/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://owenzx.github.io/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
