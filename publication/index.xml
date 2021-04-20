@@ -6,11 +6,29 @@
     <description>Recent content in Publications on Xiang Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019 Xiang Zhou</copyright>
+    <copyright>&amp;copy; 2021 Xiang Zhou</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://owenzx.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Distributed NLI: Learning to Predict Human Opinion Distributions for Language Reasoning</title>
+      <link>https://owenzx.github.io/publication/uncertainty2/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://owenzx.github.io/publication/uncertainty2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hidden Biases in Unreliable News Detection Datasets</title>
+      <link>https://owenzx.github.io/publication/news/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://owenzx.github.io/publication/news/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Curse of Performance Instability in Analysis Datasets: Consequences, Source, and Suggestions</title>

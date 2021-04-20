@@ -6,7 +6,7 @@
     <description>Recent content in Homes on Xiang Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019 Xiang Zhou</copyright>
+    <copyright>&amp;copy; 2021 Xiang Zhou</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://owenzx.github.io/home/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +18,9 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://owenzx.github.io/home/about/</guid>
-      <description>About me My name is Xiang Zhou. I&amp;rsquo;m currently a third-year Ph.D. student in the Department of Computer Science, UNC-Chapel Hill, working with Prof. Mohit Bansal.
-I received my bachelor&amp;rsquo;s degree at Shanghai Jiao Tong University(SJTU) in 2018, where I worked with Prof. Kai Yu. I was a member of the IEEE honored class. I also spent one summer visiting the University of Notre Dame, working with Prof. David Chiang.</description>
+      <description>About me I&amp;rsquo;m currently a 3rd-year Ph.D. student in the Department of Computer Science, UNC-Chapel Hill, working with Prof. Mohit Bansal.
+I received my bachelor&amp;rsquo;s degree at Shanghai Jiao Tong University (SJTU) in 2018, where I worked with Prof. Kai Yu. I was a member of the IEEE honored class. I also spent one summer visiting the University of Notre Dame, working with Prof. David Chiang.
+My research interest lies in building NLP models that understands and analyzes language just like human.</description>
     </item>
     
     <item>
