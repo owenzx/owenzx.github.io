@@ -39,11 +39,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://owenzx.github.io/publication/news/">
+  <link rel="canonical" href="https://owenzx.github.io/publication/mposm/">
 
   
 
-  <title>Hidden Biases in Unreliable News Detection Datasets | Xiang Zhou</title>
+  <title>Masked Part-Of-Speech Model: Does modeling long context help unsupervised POS-tagging? | Xiang Zhou</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -131,10 +131,10 @@
 
 
   <div class="container pub-title">
-    <h1 itemprop="name">Hidden Biases in Unreliable News Detection Datasets</h1>
+    <h1 itemprop="name">Masked Part-Of-Speech Model: Does modeling long context help unsupervised POS-tagging?</h1>
     <span class="pub-authors" itemprop="author">
       
-      <strong>Xiang Zhou</strong>, Heba Elfardy, Christos Christodoulopoulos, Thomas Butler, Mohit Bansal
+      <strong>Xiang Zhou</strong>, Shiyue Zhang, Mohit Bansal
       
     </span>
     
@@ -146,7 +146,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">Automatic unreliable news detection is a research problem with great potential impact. Recently, several papers have shown promising results on large-scale news datasets with models that only use the article itself without resorting to any fact-checking mechanism or retrieving any supporting evidence. In this work, we take a closer look at these datasets. While they all provide valuable resources for future research, we observe a number of problems that may lead to results that do not generalize in more realistic settings. Specifically, we show that selection bias during data collection leads to undesired artifacts in the datasets. In addition, while most systems train and predict at the level of individual articles, overlapping article sources in the training and evaluation data can provide a strong confounding factor that models can exploit. In the presence of this confounding factor, the models can achieve good performance by directly memorizing the site-label mapping instead of modeling the real task of unreliable news detection. We observed a significant drop (&gt;10%) in accuracy for all models tested in a clean split with no train/test source overlap. Using the observations and experimental results, we provide practical suggestions on how to create more reliable datasets for the unreliable news detection task. We suggest future dataset creation include a simple model as a difficulty/bias probe and future model development use a clean non-overlapping site and date split.</p>
+  <p class="pub-abstract" itemprop="text">Previous Part-Of-Speech (POS) induction models usually assume certain independence assumptions (e.g., Markov, unidirectional, local dependency) that do not hold in real languages. For example, the subject-verb agreement can be both long-term and bidirectional. To facilitate flexible dependency modeling, we propose a Masked Part-of-Speech Model (MPoSM), inspired by the recent success of Masked Language Models (MLM). MPoSM can model arbitrary tag dependency and perform POS induction through the objective of masked POS reconstruction. We achieve competitive results on both the English Penn WSJ dataset as well as the UD treebank containing 10 diverse languages. Though modeling the long-term dependency should ideally help this task, our ablation study shows mixed trends in different languages. To better understand this phenomenon, we design a novel synthetic experiment that can specifically diagnose the model&rsquo;s ability to learn tag agreement. Surprisingly, we find that even strong baselines fail to solve this problem consistently in a very simplified setting: the agreement between adjacent words. Nonetheless, MPoSM achieves overall better performance. Lastly, we conduct a detailed error analysis to shed light on other remaining challenges.</p>
 
   
 
@@ -155,7 +155,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">In Proceedings of the 16th Conference of the European Chapterof the Association for Computational Linguistics</div>
+        <div class="col-xs-12 col-sm-9">In Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -168,7 +168,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          March, 2021
+          April, 2022
         </div>
       </div>
     </div>
@@ -188,16 +188,8 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://www.amazon.science/publications/hidden-biases-in-unreliable-news-detection-datasets">
-  PDF
-</a>
 
 
-
-
-<a class="btn btn-primary btn-outline" href="https://owenzx.github.io/unreliable_news">
-  Code
-</a>
 
 
 
@@ -221,13 +213,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://owenzx.github.io/publication/instability/"><span
-      aria-hidden="true">&larr;</span> The Curse of Performance Instability in Analysis Datasets: Consequences, Source, and Suggestions</a></li>
+    <li class="previous"><a href="https://owenzx.github.io/publication/uncertainty2/"><span
+      aria-hidden="true">&larr;</span> Distributed NLI: Learning to Predict Human Opinion Distributions for Language Reasoning</a></li>
     
 
-    
-    <li class="next"><a href="https://owenzx.github.io/publication/grips/">GrIPS: Gradient-free, Edit-based Instruction Search for Prompting Large Language Models <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
