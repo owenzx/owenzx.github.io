@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Mutual exclusivity training and primitive augmentation to induce compositionality</title>
+      <link>https://owenzx.github.io/publication/met/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://owenzx.github.io/publication/met/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Masked Part-Of-Speech Model: Does modeling long context help unsupervised POS-tagging?</title>
       <link>https://owenzx.github.io/publication/mposm/</link>
       <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
